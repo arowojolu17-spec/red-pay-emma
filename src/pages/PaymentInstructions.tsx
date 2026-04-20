@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -19,9 +20,9 @@ const PaymentInstructions = () => {
   const [showFailure, setShowFailure] = useState(false);
 
   const amount = "6,700";
-  const accountNumber = "8921620819";
-  const bankName = "PALMPAY";
-  const accountName = "AROWOJOLU ABIDEMI";
+  const accountNumber = "5061288498";
+  const bankName = "MONIEPOINT MFB";
+  const accountName = "OBARISIABON SHEDRACK";
   const referenceId = `REF${Date.now()}`;
 
   const copyToClipboard = (text: string, field: string) => {
